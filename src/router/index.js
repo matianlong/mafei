@@ -10,7 +10,7 @@ Vue.use(Router)
 
 //  创建路由对象  把路由对象暴露出去
 export default new Router({
-    routes: [
+    routes: [ // 配置路由规则
         { path: '/', redirect: '/home' },
         { path: '/home', component: HomeContainer },
         { path: '/member', component: MemberContainer },

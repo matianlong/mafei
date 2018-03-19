@@ -4,6 +4,7 @@
 
     <mt-header fixed title="黑马程序员·Vue项目"></mt-header>
 
+    <router-view></router-view>
 
     <nav class="mui-bar mui-bar-tab">
           <router-link class="mui-tab-item" to="/home">
@@ -26,7 +27,6 @@
           </router-link>
       </nav>
 
-    <h1>app</h1>
     
   </div>
 </template>
@@ -35,7 +35,7 @@
  
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
   .app-container{
     padding-top: 40px;
   }
