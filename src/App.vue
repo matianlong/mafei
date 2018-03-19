@@ -2,7 +2,7 @@
   <div class="app-container">
     <!-- <h1>App</h1> -->
 
-    <mt-header fixed title="固定在顶部"></mt-header>
+    <mt-header fixed title="黑马程序员·Vue项目"></mt-header>
 
 
     <nav class="mui-bar mui-bar-tab">
