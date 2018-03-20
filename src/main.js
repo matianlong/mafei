@@ -11,7 +11,8 @@ import VueResource from 'vue-resource'
 Vue.use(VueResource)
 
 // 导入 MUI 的样式
-import '../dist/mui/css/mui.min.css'
+import './lib/mui/css/mui.css'
+import './lib/mui/css/icons-extra.css'
 
 // 按需导入 Mint-UI 中的组件   
 import { Header, Swipe, SwipeItem } from 'mint-ui';
