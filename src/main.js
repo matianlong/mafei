@@ -19,7 +19,7 @@ Vue.http.options.root = 'http://vue.studyit.io';
 Vue.http.options.emulateJSON = true;
 
 // 导入 MUI 的样式
-import './lib/mui/css/mui.css'
+import './lib/mui/css/mui.min.css'
 import './lib/mui/css/icons-extra.css'
 
 // 按需导入 Mint-UI 中的组件   

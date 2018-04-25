@@ -2,7 +2,7 @@
   <div class="app-container">
     <!-- <h1>App</h1> -->
 
-    <mt-header fixed title="马天龙APP">
+    <mt-header fixed title="马天龙APP就是牛">
       <span slot="left" @click="goBack" v-show="flag">
         <mt-button icon="back">返回</mt-button>
       </span>
